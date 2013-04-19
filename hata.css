@@ -1,0 +1,26 @@
+body {font: 12px/19px Arial; margin: auto;}
+table,tr,td,h1,h2,h3,h4,h5,h6,ul,li,input,form,textarea {padding: 0; margin: 0; list-style-type: none; border: none}
+img {border: none}
+a {text-decoration: none; cursor:pointer;}
+:focus {outline: none}
+.clear{clear:both;}
+
+/* Hata Sayfalari */
+	/* Header */
+	#header {padding:0.5%; border-bottom: 2px solid #888;}
+	.header {width:53%; margin:0 auto 1% auto; color:#fff}
+	.header img {margin:1.4% 0 0 0.3%; position:absolute;}
+	.header h1 {margin-left:6.5%; padding-top:2.3%;}
+	.header p {margin:0.2% 0 0 6.5%;}
+	
+	/* Content */
+	#content{text-align:center;}
+	.content{width:54%; margin:9% auto 1% auto; color:#424E56; font-family: Calibri,Trebuchet MS,arial,serif;}
+	.content .hata_kodu{font-size:200%; line-height:150%;}
+	.content .aciklama{margin-top:5%; font-size:160%; line-height:20%;}
+	.content .links{font-size:200%;}
+	.content .links p{margin-top:4%;}
+	.content .links span{margin:0 0 2% 0; font-size:70%;display:block;}
+	.content .links li{margin:0 1% 0 0; display:inline;}
+	.content .links li a{padding:0 2% 1% 2%; color:#077DF3;}
+	.content .links li a:hover{color:#D93535;}
